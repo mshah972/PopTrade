@@ -1,12 +1,18 @@
-# React + Vite
+# PopTrade
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+PopTrade is a modern, responsive web application designed to provide investors with a unified and comprehensive view of their stock and cryptocurrency portfolios. In a world where financial assets are spread across multiple platforms, PopTrade acts as a centralized command center, aggregating crucial market data and personal holdings into a single, intuitive interface.
 
-Currently, two official plugins are available:
+The application leverages real-time data from industry-leading sources like the **FinnHub API** for stock market information and the **CoinDesk API** for cryptocurrency prices, ensuring users have access to timely and accurate data to make informed decisions. Built with a powerful tech stack including **React** and **Tailwind CSS**, the dashboard is not only functional but also fast, responsive, and visually appealing on any device.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The primary goal of PopTrade is to empower the user by replacing the complexity of tracking diverse investments with a streamlined, at-a-glance overview of their complete financial picture.
 
-## Expanding the ESLint configuration
+## Technology Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+PopTrade is built using a curated selection of modern web technologies to ensure a robust and high-performance user experience.
+
+- **Frontend Framework:** React.js
+- **Styling:** Tailwind CSS
+- **State Management:** Zustand
+- **Charting:** Chart.js
+- **Stock Market Data API:** FinnHub API
+- **Cryptocurrency Data API:** CoinDesk API

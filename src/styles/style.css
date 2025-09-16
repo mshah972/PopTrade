@@ -1,1 +1,15 @@
-@import "../../node_modules/tailwindcss/dist/lib.d.mts";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import "tailwindcss";
+
+@theme {
+    --font-poppins: "Poppins", sans-serif;
+    --color-primary: #F8F9FA;
+    --color-accent-primary: #003DF6;
+    --color-accent-green: #34C759;
+    --color-accent-market: #7D9EF6;
+    --color-accent-crypto: #F9E2A8;
+    --color-accent-cash: #E9EFFD;
+    --color-accent-blue: #3364F8;
+    --color-accent-gray: #E8EAED;
+    --color-accent-red: #FF7C74;
+}

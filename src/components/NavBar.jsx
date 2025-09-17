@@ -19,7 +19,7 @@ export default function NavBar() {
                            <div
                                className="bg-accent-primary p-4 rounded-full backdrop-blur-2xl cursor-pointer shadow-lg shadow-accent-primary text-sm lg:text-md hover:bg-primary transition duration-500 group border border-transparent hover:border-gray-300">
                                {/*!-- default logo --*/}
-                               <img src="src/assets/Logo.svg" alt="Logo" className="w-5 flex group-hover:hidden"/>
+                               <img src="https://raw.githubusercontent.com/mshah972/PopTrade/cff17285d648cadcf93db08ed0a53d8efbffa60b/src/assets/Logo.svg" alt="Logo" className="w-5 flex group-hover:hidden"/>
 
                                {/*!-- hover logo --*/}
                                <img src="src/assets/logo_black.svg" alt="Logo" className="w-5 hidden group-hover:flex"/>

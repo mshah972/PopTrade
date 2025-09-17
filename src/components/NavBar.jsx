@@ -27,7 +27,7 @@ export default function NavBar() {
                        </div>
                        <div>
                            <div
-                               className="bg-primary/60 backdrop-blur-2xl shadow-xl shadow-gray-300/20 ring-1 ring-gray-300/30 px-8 py-4 rounded-full flex max-w-7xl justify-center space-x-20 hidden lg:flex md:flex">
+                               className="bg-primary/60 backdrop-blur-2xl shadow-xl shadow-gray-300/20 ring-1 ring-gray-300/30 px-8 py-4 rounded-full flex max-w-7xl justify-center space-x-20 hidden lg:flex md:flex ml-12">
                                {navigation.map((item) => (
                                    <a key={item.name} href={item.href}>
                                        <h3 className="text-sm lg:text-md text-gray-600 font-normal hover:text-accent-primary cursor-pointer transition duration-400">{item.name}</h3>

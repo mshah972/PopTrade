@@ -14,10 +14,10 @@ export default function NavBar() {
        <>
            <div>
                <header className="absolute inset-x-0 top-0">
-                   <nav aria-label="Global" className="flex items-center justify-between m-4 p-4 bg-white backdrop-blur-lg border border-gray-100 rounded-full shadow-lg shadow-primary">
+                   <nav aria-label="Global" className="flex items-center justify-between m-4 p-4 bg-white/50 backdrop-blur-3xl ring-1 ring-gray-200/50 rounded-full shadow-lg shadow-primary">
                        <div>
                            <div
-                               className="bg-accent-primary p-4 rounded-full cursor-pointer shadow-lg shadow-accent-primary text-sm lg:text-md hover:bg-primary transition duration-500 group border border-transparent hover:border-gray-300">
+                               className="bg-accent-primary p-4 rounded-full backdrop-blur-2xl cursor-pointer shadow-lg shadow-accent-primary text-sm lg:text-md hover:bg-primary transition duration-500 group border border-transparent hover:border-gray-300">
                                {/*!-- default logo --*/}
                                <img src="src/assets/Logo.svg" alt="Logo" className="w-5 flex group-hover:hidden"/>
 
@@ -27,10 +27,10 @@ export default function NavBar() {
                        </div>
                        <div>
                            <div
-                               className="bg-primary/60 shadow-xl shadow-gray-300/20 border border-gray-300/30 px-8 py-4 rounded-full flex max-w-7xl justify-center space-x-20 hidden lg:flex md:flex">
+                               className="bg-primary/60 backdrop-blur-2xl shadow-xl shadow-gray-300/20 ring-1 ring-gray-300/30 px-8 py-4 rounded-full flex max-w-7xl justify-center space-x-20 hidden lg:flex md:flex">
                                {navigation.map((item) => (
-                                   <a key={item.name} href={item.href} className="text-sm lg:text-md text-gray-600 font-light hover:text-accent-primary hover:font-normal cursor-pointer transition duration-400">
-                                       {item.name}
+                                   <a key={item.name} href={item.href}>
+                                       <h3 className="text-sm lg:text-md text-gray-600 font-normal hover:text-accent-primary cursor-pointer transition duration-400">{item.name}</h3>
                                    </a>
                                ))}
                            </div>
@@ -38,11 +38,11 @@ export default function NavBar() {
                        <div>
                            <div className="flex space-x-2">
                                <div
-                                   className="bg-primary/60 border border-gray-300/40 rounded-full p-4 cursor-pointer shadow-lg shadow-gray-300/40 hover:shadow-xl transition duration-500">
+                                   className="bg-primary/60 backdrop-blur-2xl ring-1 ring-gray-300/40 rounded-full p-4 cursor-pointer shadow-lg shadow-gray-300/40 hover:shadow-xl transition duration-500">
                                    <img src="src/assets/search-normal.svg" alt="Search Button" className="w-4 lg:w-5"/>
                                </div>
                                <div
-                                   className="bg-primary/60 border border-gray-300/40 rounded-full p-4 cursor-pointer shadow-lg shadow-gray-300/40 hover:shadow-xl transition duration-500">
+                                   className="bg-primary/60 backdrop-blur-2xl ring-1 ring-gray-300/40 rounded-full p-4 cursor-pointer shadow-lg shadow-gray-300/40 hover:shadow-xl transition duration-500">
                                    <img src="src/assets/notification-bing.svg" alt="Search Button" className="w-4 lg:w-5"/>
                                </div>
                                <div

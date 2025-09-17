@@ -40,15 +40,15 @@ export default function NavBar() {
                            <div className="flex space-x-2">
                                <button
                                    className="bg-primary/60 backdrop-blur-2xl ring-1 ring-gray-300/40 rounded-full p-4 cursor-pointer shadow-lg shadow-gray-300/40 hover:shadow-xl transition duration-500">
-                                   <img src="https://raw.githubusercontent.com/mshah972/PopTrade/9a2c703f52c226d858edde17ef53569103005a25/src/assets/search-normal.svg" alt="Search Button" className="w-4 lg:w-5"/>
+                                   <img src="https://raw.githubusercontent.com/mshah972/PopTrade/9a2c703f52c226d858edde17ef53569103005a25/src/assets/search-normal.svg" alt="Search Button" className="w-4 h-4 lg:w-5 lg:h-5"/>
                                </button>
                                <button
                                    className="bg-primary/60 backdrop-blur-2xl ring-1 ring-gray-300/40 rounded-full p-4 cursor-pointer shadow-lg shadow-gray-300/40 hover:shadow-xl transition duration-500">
-                                   <img src="https://raw.githubusercontent.com/mshah972/PopTrade/9a2c703f52c226d858edde17ef53569103005a25/src/assets/notification-bing.svg" alt="Search Button" className="w-4 lg:w-5"/>
+                                   <img src="https://raw.githubusercontent.com/mshah972/PopTrade/9a2c703f52c226d858edde17ef53569103005a25/src/assets/notification-bing.svg" alt="Search Button" className="w-4 h-4 lg:w-5 lg:h-5"/>
                                </button>
                                <button onClick={() => setMobileMenuOpen((v) => !v)}
                                    className="flex lg:hidden md:hidden bg-primary/60 border border-gray-300/40 rounded-full p-4 cursor-pointer shadow-lg shadow-gray-300/40 hover:shadow-xl transition duration-500">
-                                   <img src="https://raw.githubusercontent.com/mshah972/PopTrade/9a2c703f52c226d858edde17ef53569103005a25/src/assets/Hamburger%20Menu.svg" alt="Search Button" className="w-4 lg:w-5"/>
+                                   <img src="https://raw.githubusercontent.com/mshah972/PopTrade/9a2c703f52c226d858edde17ef53569103005a25/src/assets/Hamburger%20Menu.svg" alt="Search Button" className="w-4 h-4 lg:w-5 lg:h-5"/>
                                </button>
                            </div>
                        </div>

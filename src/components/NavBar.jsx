@@ -22,7 +22,7 @@ export default function NavBar() {
                                <img src="https://raw.githubusercontent.com/mshah972/PopTrade/cff17285d648cadcf93db08ed0a53d8efbffa60b/src/assets/Logo.svg" alt="Logo" className="w-5 flex group-hover:hidden"/>
 
                                {/*!-- hover logo --*/}
-                               <img src="src/assets/logo_black.svg" alt="Logo" className="w-5 hidden group-hover:flex"/>
+                               <img src="https://raw.githubusercontent.com/mshah972/PopTrade/9a2c703f52c226d858edde17ef53569103005a25/src/assets/logo_black.svg" alt="Logo" className="w-5 hidden group-hover:flex"/>
                            </div>
                        </div>
                        <div>
@@ -39,15 +39,15 @@ export default function NavBar() {
                            <div className="flex space-x-2">
                                <div
                                    className="bg-primary/60 backdrop-blur-2xl ring-1 ring-gray-300/40 rounded-full p-4 cursor-pointer shadow-lg shadow-gray-300/40 hover:shadow-xl transition duration-500">
-                                   <img src="src/assets/search-normal.svg" alt="Search Button" className="w-4 lg:w-5"/>
+                                   <img src="https://raw.githubusercontent.com/mshah972/PopTrade/9a2c703f52c226d858edde17ef53569103005a25/src/assets/search-normal.svg" alt="Search Button" className="w-4 lg:w-5"/>
                                </div>
                                <div
                                    className="bg-primary/60 backdrop-blur-2xl ring-1 ring-gray-300/40 rounded-full p-4 cursor-pointer shadow-lg shadow-gray-300/40 hover:shadow-xl transition duration-500">
-                                   <img src="src/assets/notification-bing.svg" alt="Search Button" className="w-4 lg:w-5"/>
+                                   <img src="https://raw.githubusercontent.com/mshah972/PopTrade/9a2c703f52c226d858edde17ef53569103005a25/src/assets/notification-bing.svg" alt="Search Button" className="w-4 lg:w-5"/>
                                </div>
                                <div
                                    className="flex lg:hidden md:hidden bg-primary/60 border border-gray-300/40 rounded-full p-4 cursor-pointer shadow-lg shadow-gray-300/40 hover:shadow-xl transition duration-500">
-                                   <img src="src/assets/Hamburger%20Menu.svg" alt="Search Button" className="w-4 lg:w-5"/>
+                                   <img src="https://raw.githubusercontent.com/mshah972/PopTrade/9a2c703f52c226d858edde17ef53569103005a25/src/assets/Hamburger%20Menu.svg" alt="Search Button" className="w-4 lg:w-5"/>
                                </div>
                            </div>
                        </div>

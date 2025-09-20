@@ -8,7 +8,7 @@ export default function DashboardSummaryCard() {
                 {/* Total Balance Section */}
                 <div className="flex flex-row w-full justify-start items-center space-x-4">
                     <div className="bg-accent-primary rounded-full p-2 shadow-lg shadow-accent-primary/60">
-                        <img src="src/assets/Dollar%20Minimalistic.svg" alt="Dollar Icon" className="w-6"/>
+                        <img src="https://raw.githubusercontent.com/mshah972/PopTrade/63b44d73be90d6a43008c1617a16ca0c7cbe9dc8/src/assets/Dollar%20Minimalistic.svg" alt="Dollar Icon" className="w-6"/>
                     </div>
                     <h3 className="font-normal text-lg text-shadow-lg text-shadow-gray-400/10">Total Balance</h3>
                 </div>

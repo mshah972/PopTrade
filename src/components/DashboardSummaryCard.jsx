@@ -21,8 +21,8 @@ export default function DashboardSummaryCard() {
                         <h2 class="font-semibold text-4xl text-shadow-lg text-shadow-gray-400/30">10,000.00</h2>
                     </div>
                     <div class="flex flex-row items-end space-x-1">
-                        <p class="text-accent-green text-sm text-shadow-lg text-shadow-gray-400/10">$1.90</p>
-                        <p class="text-accent-green text-sm text-shadow-lg text-shadow-gray-400/10">(0.29%)</p>
+                        <p class="text-accent-green text-sm text-shadow-lg text-shadow-gray-400/15">$1.90</p>
+                        <p class="text-accent-green text-sm text-shadow-lg text-shadow-gray-400/15">(0.29%)</p>
                     </div>
                 </div>
 
@@ -45,7 +45,7 @@ export default function DashboardSummaryCard() {
                         </div>
                         {/* Stocks Profit Ratio */}
                         <div class="bg-primary/20 backdrop-blur-lg ring-1 ring-gray-400/20 p-1 rounded-md shadow-lg shadow-gray-300/30">
-                            <p class="text-xs font-light text-shadow-lg text-shadow-gray-400/20">32.5%</p>
+                            <p class="text-xs font-light text-shadow-lg text-shadow-gray-400/30">32.5%</p>
                         </div>
                     </div>
 
@@ -57,7 +57,7 @@ export default function DashboardSummaryCard() {
                         </div>
                         {/* Crypto Profit Ratio */}
                         <div class="bg-primary/20 backdrop-blur-lg ring-1 ring-gray-400/20 p-1 rounded-md shadow-lg shadow-gray-300/30">
-                            <p class="text-xs font-light text-shadow-lg text-shadow-gray-400/20">32.5%</p>
+                            <p class="text-xs font-light text-shadow-lg text-shadow-gray-400/30">32.5%</p>
                         </div>
                     </div>
 
@@ -69,7 +69,7 @@ export default function DashboardSummaryCard() {
                         </div>
                         {/* Crypto Profit Ratio */}
                         <div class="bg-primary/20 backdrop-blur-lg ring-1 ring-gray-400/20 p-1 rounded-md shadow-lg shadow-gray-300/30">
-                            <p class="text-xs font-light text-shadow-lg text-shadow-gray-400/20">32.5%</p>
+                            <p class="text-xs font-light text-shadow-lg text-shadow-gray-400/30">32.5%</p>
                         </div>
                     </div>
                 </div>

@@ -1,35 +1,26 @@
 import './App.css'
 import NavBar from "./components/NavBar.jsx";
+import DashboardSummaryCard from "./components/DashboardSummaryCard.jsx";
 
 function App() {
 
-  return (
-    <>
-      {/*<div>*/}
-      {/*  <a href="https://vite.dev" target="_blank">*/}
-      {/*    <img src={viteLogo} className="logo" alt="Vite logo" />*/}
-      {/*  </a>*/}
-      {/*  <a href="https://react.dev" target="_blank">*/}
-      {/*    <img src={reactLogo} className="logo react" alt="React logo" />*/}
-      {/*  </a>*/}
-      {/*</div>*/}
-      {/*<h1 className="text-3xl font-bold font-poppins text-accent-primary">Vite + React</h1>*/}
-      {/*<div className="card">*/}
-      {/*  <button onClick={() => setCount((count) => count + 1)}>*/}
-      {/*    count is {count}*/}
-      {/*  </button>*/}
-      {/*  <p>*/}
-      {/*    Edit <code>src/App.jsx</code> and save to test HMR*/}
-      {/*  </p>*/}
-      {/*</div>*/}
-      {/*<p className="read-the-docs">*/}
-      {/*  Click on the Vite and React logos to learn more*/}
-      {/*</p>*/}
-        <div>
-            <NavBar />
-        </div>
-    </>
-  )
+    return (
+        <>
+            <div className="min-h-screen">
+                <header>
+                    <NavBar/>
+                </header>
+                <main className="mx-auto px-4 py-1">
+                    <div className="grid grid-cols-1 sm:grid-cols-6 xl:grid-cols-12 grid-flow-dense auto-rows-[minmax(140px,auto)] m-2 gap-4">
+                        <div className="md:col-span-4 lg:col-span-3">
+                            <DashboardSummaryCard/>
+                        </div>
+                        {/* Right Column for other content */}
+                    </div>
+                </main>
+            </div>
+        </>
+    )
 }
 
 export default App

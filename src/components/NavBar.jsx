@@ -13,7 +13,7 @@ export default function NavBar() {
     return (
         <>
             <nav aria-label="Nav Bar"
-                 className="flex items-center justify-between m-4 p-4 bg-white/50 backdrop-blur-3xl ring-1 ring-gray-200/50 rounded-full shadow-lg shadow-primary sticky top-0 z-50">
+                 className="flex items-center justify-between m-4 p-4 bg-white/50 backdrop-blur-3xl ring-1 ring-gray-200 rounded-full shadow-lg shadow-primary sticky top-0 z-50">
                 <div>
                     <div
                         className="bg-accent-primary p-3.5 lg:p-4 rounded-full backdrop-blur-2xl cursor-pointer shadow-lg shadow-accent-primary text-sm lg:text-md hover:bg-primary transition duration-500 group border border-transparent hover:border-gray-300">

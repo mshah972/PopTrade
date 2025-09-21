@@ -53,7 +53,7 @@ export default function NavBar() {
                                 alt="Search Button" className="w-4 h-4 lg:w-5 lg:h-5"/>
                         </button>
                         <button onClick={() => setMobileMenuOpen((v) => !v)}
-                                className="flex lg:hidden md:hidden bg-primary/60 border border-gray-300/40 rounded-full p-3.5 lg:p-4 cursor-pointer shadow-lg shadow-gray-300/40 hover:shadow-xl transition duration-500">
+                                className="flex lg:hidden md:hidden backdrop-blur-[5px] ring-2 ring-gray-300/40 rounded-full p-3.5 lg:p-4 cursor-pointer shadow-lg shadow-gray-300/40 inset-shadow-sm inset-shadow-neutral-400/10 hover:shadow-xl hover:scale-105 transition duration-500">
                             <img
                                 src="https://raw.githubusercontent.com/mshah972/PopTrade/9a2c703f52c226d858edde17ef53569103005a25/src/assets/Hamburger%20Menu.svg"
                                 alt="Search Button" className="w-4 h-4 lg:w-5 lg:h-5"/>

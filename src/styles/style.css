@@ -12,4 +12,26 @@
     --color-accent-blue: #3364F8;
     --color-accent-gray: #E8EAED;
     --color-accent-red: #FF7C74;
+
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+            transform: translateY(-10px); /* Optional: for a subtle slide-down effect */
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    @keyframes fadeOut {
+        from {
+            opacity: 1;
+            transform: translateY(0); /* Optional: for a subtle slide-down effect */
+        }
+        to {
+            opacity: 0;
+            transform: translateY(-10px);
+        }
+    }
 }

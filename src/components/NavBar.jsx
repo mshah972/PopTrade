@@ -13,7 +13,7 @@ export default function NavBar() {
     return (
         <>
             <nav aria-label="Nav Bar"
-                 className="flex items-center justify-between m-4 p-4 bg-white/50 backdrop-blur-3xl ring-1 ring-gray-200 rounded-full shadow-lg shadow-primary sticky top-0 z-50">
+                 className="flex items-center justify-between m-4 p-4 backdrop-blur-sm ring-1 ring-gray-200 rounded-full shadow-lg shadow-primary inset-shadow-sm inset-shadow-neutral-300/20">
                 <div>
                     <div
                         className="bg-accent-primary p-3.5 lg:p-4 rounded-full backdrop-blur-2xl cursor-pointer shadow-lg shadow-accent-primary text-sm lg:text-md hover:bg-primary transition duration-500 group border border-transparent hover:border-gray-300">
@@ -30,10 +30,10 @@ export default function NavBar() {
                 </div>
                 <div>
                     <div
-                        className="bg-primary/60 backdrop-blur-2xl shadow-xl shadow-gray-300/20 ring-1 ring-gray-300/30 px-8 py-4 rounded-full flex max-w-7xl justify-center space-x-20 hidden lg:flex md:flex ml-12 mr-12">
+                        className="backdrop-blur-[5px] shadow-xl shadow-gray-300/20 inset-shadow-sm inset-shadow-neutral-400/10 ring-2 ring-gray-300/40 px-8 py-4 rounded-full flex max-w-7xl justify-center space-x-20 hidden lg:flex md:flex ml-12 mr-12">
                         {navigation.map((item) => (
                             <a key={item.name} href={item.href}>
-                                <h3 className="text-sm lg:text-md text-gray-600 font-normal hover:text-accent-primary cursor-pointer transition duration-400 text-shadow-lg text-shadow-gray-300/20">{item.name}</h3>
+                                <h3 className="text-sm lg:text-md text-gray-600 font-normal hover:text-accent-primary hover:scale-105 cursor-pointer transition duration-200 text-shadow-lg text-shadow-gray-300/25">{item.name}</h3>
                             </a>
                         ))}
                     </div>
@@ -41,13 +41,13 @@ export default function NavBar() {
                 <div>
                     <div className="flex space-x-2">
                         <button
-                            className="bg-primary/60 backdrop-blur-2xl ring-1 ring-gray-300/40 rounded-full p-3.5 lg:p-4 cursor-pointer shadow-lg shadow-gray-300/40 hover:shadow-xl transition duration-500">
+                            className="backdrop-blur-[5px] ring-2 ring-gray-300/40 rounded-full p-3.5 lg:p-4 cursor-pointer shadow-lg shadow-gray-300/40 inset-shadow-sm inset-shadow-neutral-400/10 hover:shadow-xl hover:scale-105 transition duration-500">
                             <img
                                 src="https://raw.githubusercontent.com/mshah972/PopTrade/9a2c703f52c226d858edde17ef53569103005a25/src/assets/search-normal.svg"
                                 alt="Search Button" className="w-4 h-4 lg:w-5 lg:h-5"/>
                         </button>
                         <button
-                            className="bg-primary/60 backdrop-blur-2xl ring-1 ring-gray-300/40 rounded-full p-3.5 lg:p-4 cursor-pointer shadow-lg shadow-gray-300/40 hover:shadow-xl transition duration-500">
+                            className="backdrop-blur-[5px] ring-2 ring-gray-300/40 rounded-full p-3.5 lg:p-4 cursor-pointer shadow-lg shadow-gray-300/40 inset-shadow-sm inset-shadow-neutral-400/10 hover:shadow-xl hover:scale-105 transition duration-500">
                             <img
                                 src="https://raw.githubusercontent.com/mshah972/PopTrade/9a2c703f52c226d858edde17ef53569103005a25/src/assets/notification-bing.svg"
                                 alt="Search Button" className="w-4 h-4 lg:w-5 lg:h-5"/>
@@ -63,15 +63,15 @@ export default function NavBar() {
             </nav>
             {/* Mobile Dropdown */}
             {mobileMenuOpen && (
-               <div>
-                    <div className="bg-white/20 backdrop-blur-2xl shadow-xl shadow-gray-300/20 mt-4 md:hidden ring-1 ring-gray-200/50 rounded-2xl px-6 py-6 flex flex-col gap-6 ml-6 mr-6 text-left transition-all transition-discrete duration-500">
+                <div>
+                    <div className={`absolute inset-x-0 top-full mt-4 mr-6 ml-6 backdrop-blur-[5px] shadow-2xl shadow-gray-300/40 inset-shadow-sm inset-shadow-white md:hidden ring-2 ring-gray-300/50 rounded-2xl px-6 py-6 flex flex-col gap-6 text-left z-50 origin-top overflow-hidden ${mobileMenuOpen ? "animate-[fadeIn_0.5s_ease-out_forwards]" : "animate-[fadeOut_0.5s_ease-in_forwards"}`}>
                         {navigation.map((item) =>
                             <a key={item.name} href={item.href}>
-                                <h3 className="text-sm lg:text-md text-gray-600 font-normal hover:text-accent-primary cursor-pointer transition duration-400 backdrop-blur-2xl text-shadow-lg text-shadow-gray-300/20">{item.name}</h3>
+                                <h3 className="text-sm lg:text-md text-gray-800 font-normal hover:text-accent-primary cursor-pointer transition duration-400 text-shadow-lg text-shadow-gray-400/20">{item.name}</h3>
                             </a>
                         )}
                     </div>
-               </div>
+                </div>
             )}
         </>
     );

@@ -7,7 +7,7 @@ function App() {
     return (
         <>
             <div className="min-h-screen">
-                <header>
+                <header className="sticky top-0 z-50 bg-transparent">
                     <NavBar/>
                 </header>
                 <main className="mx-auto px-4 py-1">

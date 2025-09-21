@@ -6,11 +6,11 @@ export default function DashboardSummaryCard() {
             <section aria-label="Total Balance Card"
                      className="backdrop-blur-[5px] ring-2 ring-gray-300/40 shadow-xl shadow-gray-300/30 inset-shadow-sm inset-shadow-neutral-400/10 p-6 rounded-2xl w-full flex flex-col">
                 {/* Total Balance Section */}
-                <div className="flex flex-row w-full justify-start items-center space-x-4">
-                    <div className="bg-accent-primary rounded-full p-2 shadow-lg shadow-accent-primary/15">
+                <div className="flex flex-row w-full justify-start items-center space-x-3">
+                    <div className="bg-accent-primary rounded-full p-1 shadow-lg shadow-accent-primary/15">
                         <img src="https://raw.githubusercontent.com/mshah972/PopTrade/63b44d73be90d6a43008c1617a16ca0c7cbe9dc8/src/assets/Dollar%20Minimalistic.svg" alt="Dollar Icon" className="w-6"/>
                     </div>
-                    <h3 className="font-normal text-lg text-shadow-lg text-shadow-gray-300/40">Total Balance</h3>
+                    <h3 className="font-normal text-lg text-shadow-lg text-shadow-gray-300/45">Total Balance</h3>
                 </div>
                 {/* Balance Details */}
                 <div class="flex flex-row w-full space-x-2 mt-10">

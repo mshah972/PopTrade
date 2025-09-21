@@ -18,7 +18,7 @@ export default function DashboardSummaryCard() {
                         <div class="text-accent-primary -mt-6">
                             <h3 class="font-medium text-xl text-shadow-lg text-shadow-gray-300/40">$</h3>
                         </div>
-                        <h2 class="font-semibold text-4xl text-shadow-lg text-shadow-gray-400/30">10,000.00</h2>
+                        <h2 class="font-semibold text-xl text-shadow-lg text-shadow-gray-400/30 md:text-2xl lg:text-4xl">10,000.00</h2>
                     </div>
                     <div class="flex flex-row items-end space-x-1">
                         <p class="text-accent-green text-sm text-shadow-lg text-shadow-gray-300/15">$1.90</p>

@@ -16,7 +16,7 @@ export default function StockComponentCard() {
                     <div>
                         <div
                             className={"flex flex-row items-center space-x-2 rounded-full ring-1 ring-gray-300 inset-shadow-sm inset-shadow-white shadow-lg shadow-gray-400/15 backdrop-blur-sm px-3 py-2"}>
-                            <p className={"text-[10px] text-shadow-sm tracking-wide text-gray-900 font-light"}>Market
+                            <p className={"text-[10px] text-shadow-sm text-shadow-gray-500/20 tracking-wide text-gray-900 font-light"}>Market
                                 Status</p>
                             <span className="relative flex size-2">
                               <span
@@ -50,48 +50,48 @@ export default function StockComponentCard() {
                     {/* Open Price */}
                     <div className={"backdrop-blur-sm shadow-lg shadow-gray-300/30 flex flex-row justify-between items-center ring-1 ring-neutral-100 rounded-full p-2 inset-shadow-sm inset-shadow-white space-x-4"}>
                         {/* Label */}
-                        <div className={"bg-white/40 backdrop-blur-sm inset-shadow-sm inset-shadow-gray-200/30 rounded-full shadow-lg shadow-gray-300/30 w-full text-center ring-1 ring-gray-300/30"}>
-                            <p className={"text-xs font-light px-1 py-1 text-shadow-sm text-neutral-700"}>Open Price</p>
+                        <div className={"backdrop-blur-sm inset-shadow-sm inset-shadow-white rounded-full shadow-sm shadow-gray-300/50 w-full text-center ring-1 ring-gray-200"}>
+                            <p className={"text-xs font-light px-1 py-1 text-shadow-sm text-shadow-gray-500/20 text-neutral-700"}>Open Price</p>
                         </div>
 
                         {/* Border */}
 <div className={"border-t border-neutral-200 w-full"}></div>
 
                         {/* Value */}
-                        <div className={"backdrop-blur-sm inset-shadow-sm inset-shadow-gray-200/30 rounded-full shadow-lg shadow-gray-300/30 w-full text-center ring-1 ring-gray-300/30"}>
-                            <p className={"text-xs font-normal px-1 py-1 text-shadow-sm text-neutral-700"}>$0.00</p>
+                        <div className={"backdrop-blur-sm inset-shadow-sm inset-shadow-white rounded-full shadow-sm shadow-gray-300/50 w-full text-center ring-1 ring-gray-200"}>
+                            <p className={"text-xs font-normal px-1 py-1 text-shadow-sm text-shadow-gray-500/20 text-neutral-700"}>$0.00</p>
                         </div>
                     </div>
 
                     {/* High Price*/}
                     <div className={"backdrop-blur-sm shadow-lg shadow-gray-300/30 flex flex-row justify-between items-center ring-1 ring-neutral-100 rounded-full p-2 inset-shadow-sm inset-shadow-white space-x-4"}>
                         {/* Label */}
-                        <div className={"backdrop-blur-sm inset-shadow-sm inset-shadow-gray-200/30 rounded-full shadow-lg shadow-gray-300/30 w-full text-center ring-1 ring-gray-300/30"}>
-                            <p className={"text-xs font-light px-1 py-1 text-shadow-sm text-neutral-700"}>High Price</p>
+                        <div className={"backdrop-blur-sm inset-shadow-sm inset-shadow-white rounded-full shadow-sm shadow-gray-300/50 w-full text-center ring-1 ring-gray-200"}>
+                            <p className={"text-xs font-light px-1 py-1 text-shadow-sm text-shadow-gray-500/20 text-neutral-700"}>High Price</p>
                         </div>
 
                         {/* Border */}
                         <div className={"border-t border-neutral-200 w-full"}></div>
 
                         {/* Value */}
-                        <div className={"backdrop-blur-sm inset-shadow-sm inset-shadow-gray-200/30 rounded-full shadow-lg shadow-gray-300/30 w-full text-center ring-1 ring-gray-300/30"}>
-                            <p className={"text-xs font-normal px-1 py-1 text-shadow-sm text-neutral-700"}>$0.00</p>
+                        <div className={"backdrop-blur-sm inset-shadow-sm inset-shadow-white rounded-full shadow-sm shadow-gray-300/50 w-full text-center ring-1 ring-gray-200"}>
+                            <p className={"text-xs font-normal px-1 py-1 text-shadow-sm text-shadow-gray-500/20 text-neutral-700"}>$0.00</p>
                         </div>
                     </div>
 
                     {/* Low Price */}
                     <div className={"backdrop-blur-sm shadow-lg shadow-gray-300/30 flex flex-row justify-between items-center ring-1 ring-neutral-100 rounded-full p-2 inset-shadow-sm inset-shadow-white space-x-4"}>
                         {/* Label */}
-                        <div className={"backdrop-blur-sm inset-shadow-sm inset-shadow-gray-200/30 rounded-full shadow-lg shadow-gray-300/30 w-full text-center ring-1 ring-gray-300/30"}>
-                            <p className={"text-xs font-light px-1 py-1 text-shadow-sm text-neutral-700"}>Low Price</p>
+                        <div className={"backdrop-blur-sm inset-shadow-sm inset-shadow-white rounded-full shadow-sm shadow-gray-300/50 w-full text-center ring-1 ring-gray-200"}>
+                            <p className={"text-xs font-light px-1 py-1 text-shadow-sm text-shadow-gray-500/20 text-neutral-700"}>Low Price</p>
                         </div>
 
                         {/* Border */}
                         <div className={"border-t border-neutral-200 w-full"}></div>
 
                         {/* Value */}
-                        <div className={"backdrop-blur-sm inset-shadow-sm inset-shadow-gray-200/30 rounded-full shadow-lg shadow-gray-300/30 w-full text-center ring-1 ring-gray-300/30"}>
-                            <p className={"text-xs font-normal px-1 py-1 text-shadow-sm text-neutral-700"}>$0.00</p>
+                        <div className={"backdrop-blur-sm inset-shadow-sm inset-shadow-white rounded-full shadow-sm shadow-gray-300/50 w-full text-center ring-1 ring-gray-200"}>
+                            <p className={"text-xs font-normal px-1 py-1 text-shadow-sm text-shadow-gray-500/20 text-neutral-700"}>$0.00</p>
                         </div>
                     </div>
                 </div>

@@ -48,7 +48,7 @@ export default function StockComponentCard() {
                 {/* Stock's Market Details */}
                 <div class="flex flex-col w-full space-y-4 mt-4">
                     {/* Open Price */}
-                    <div className={"backdrop-blur-sm shadow-lg shadow-gray-300/30 flex flex-row justify-between items-center ring-1 ring-neutral-100 rounded-full p-2 inset-shadow-sm inset-shadow-white space-x-4"}>
+                    <div className={"backdrop-blur-sm shadow-md shadow-gray-300/20 flex flex-row justify-between items-center ring-1 ring-neutral-200/50 rounded-full p-2 inset-shadow-sm inset-shadow-white space-x-4"}>
                         {/* Label */}
                         <div className={"backdrop-blur-sm inset-shadow-sm inset-shadow-white rounded-full shadow-sm shadow-gray-300/50 w-full text-center ring-1 ring-gray-200"}>
                             <p className={"text-[10px] lg:text-xs font-light px-1 py-1 text-shadow-sm text-shadow-gray-500/20 text-neutral-800"}>Open Price</p>
@@ -64,7 +64,7 @@ export default function StockComponentCard() {
                     </div>
 
                     {/* High Price*/}
-                    <div className={"backdrop-blur-sm shadow-lg shadow-gray-300/30 flex flex-row justify-between items-center ring-1 ring-neutral-100 rounded-full p-2 inset-shadow-sm inset-shadow-white space-x-4"}>
+                    <div className={"backdrop-blur-sm shadow-md shadow-gray-300/20 flex flex-row justify-between items-center ring-1 ring-neutral-200/50 rounded-full p-2 inset-shadow-sm inset-shadow-white space-x-4"}>
                         {/* Label */}
                         <div className={"backdrop-blur-sm inset-shadow-sm inset-shadow-white rounded-full shadow-sm shadow-gray-300/50 w-full text-center ring-1 ring-gray-200"}>
                             <p className={"text-[10px] lg:text-xs font-light px-1 py-1 text-shadow-sm text-shadow-gray-500/20 text-neutral-800"}>High Price</p>
@@ -80,7 +80,7 @@ export default function StockComponentCard() {
                     </div>
 
                     {/* Low Price */}
-                    <div className={"backdrop-blur-sm shadow-lg shadow-gray-300/30 flex flex-row justify-between items-center ring-1 ring-neutral-100 rounded-full p-2 inset-shadow-sm inset-shadow-white space-x-4"}>
+                    <div className={"backdrop-blur-sm shadow-md shadow-gray-300/20 flex flex-row justify-between items-center ring-1 ring-neutral-200/50 rounded-full p-2 inset-shadow-sm inset-shadow-white space-x-4"}>
                         {/* Label */}
                         <div className={"backdrop-blur-sm inset-shadow-sm inset-shadow-white rounded-full shadow-sm shadow-gray-300/50 w-full text-center ring-1 ring-gray-200"}>
                             <p className={"text-[10px] lg:text-xs font-light px-1 py-1 text-shadow-sm text-shadow-gray-500/20 text-neutral-800"}>Low Price</p>

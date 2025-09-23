@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function DashboardSummaryCard() {
+export default function TotalBalanceCard() {
     return (
         <>
             <section aria-label="Total Balance Card"

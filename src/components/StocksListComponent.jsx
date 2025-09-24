@@ -22,7 +22,7 @@ export default function StocksListComponent() {
                     <div className={"backdrop-blur-sm shadow-md shadow-gray-300/20 flex flex-row justify-between items-center ring-1 ring-neutral-200/50 rounded-3xl px-4 py-4 inset-shadow-sm inset-shadow-white space-x-2"}>
                         {/* Label */}
                         <div className={"flex flex-col items-start text-center space-y-1 mr-6"}>
-                            <p className={"text-sm font-medium text-shadow-sm text-shadow-neutral-300/30 text-neutral-800"}>APPL</p>
+                            <p className={"text-sm font-semibold text-shadow-sm text-shadow-neutral-300/30 text-neutral-800"}>APPL</p>
                             <p className={"text-[10px] font-light text-shadow-sm text-shadow-neutral-300/30 text-neutral-600"}>Apple</p>
                         </div>
 
@@ -36,7 +36,7 @@ export default function StocksListComponent() {
                     <div className={"backdrop-blur-sm shadow-md shadow-gray-300/20 flex flex-row justify-between items-center ring-1 ring-neutral-200/50 rounded-3xl px-4 py-4 inset-shadow-sm inset-shadow-white space-x-2"}>
                         {/* Label */}
                         <div className={"flex flex-col items-start text-center space-y-1 mr-6"}>
-                            <p className={"text-sm font-medium text-shadow-sm text-shadow-neutral-300/30 text-neutral-800"}>TSLA</p>
+                            <p className={"text-sm font-semibold text-shadow-sm text-shadow-neutral-300/30 text-neutral-800"}>TSLA</p>
                             <p className={"text-[10px] font-light text-shadow-sm text-shadow-neutral-300/30 text-neutral-600"}>Tesla</p>
                         </div>
 
@@ -50,7 +50,7 @@ export default function StocksListComponent() {
                     <div className={"backdrop-blur-sm shadow-md shadow-gray-300/20 flex flex-row justify-between items-center ring-1 ring-neutral-200/50 rounded-3xl px-4 py-4 inset-shadow-sm inset-shadow-white space-x-2"}>
                         {/* Label */}
                         <div className={"flex flex-col items-start text-start space-y-1 mr-6"}>
-                            <p className={"text-sm font-medium text-shadow-sm text-shadow-neutral-300/30 text-neutral-800"}>PLTR</p>
+                            <p className={"text-sm font-semibold text-shadow-sm text-shadow-neutral-300/30 text-neutral-800"}>PLTR</p>
                             <p className={"text-[10px] font-light text-shadow-sm text-shadow-neutral-300/30 text-neutral-600"}>Palantir Technologies</p>
                         </div>
 
@@ -64,7 +64,7 @@ export default function StocksListComponent() {
                     <div className={"backdrop-blur-sm shadow-md shadow-gray-300/20 flex flex-row justify-between items-center ring-1 ring-neutral-200/50 rounded-3xl px-4 py-4 inset-shadow-sm inset-shadow-white space-x-2"}>
                         {/* Label */}
                         <div className={"flex flex-col items-start text-start space-y-1 mr-6"}>
-                            <p className={"text-sm font-medium text-shadow-sm text-shadow-neutral-300/30 text-neutral-800"}>NFLX</p>
+                            <p className={"text-sm font-semibold text-shadow-sm text-shadow-neutral-300/30 text-neutral-800"}>NFLX</p>
                             <p className={"text-[10px] font-light text-shadow-sm text-shadow-neutral-300/30 text-neutral-600"}>Netflix</p>
                         </div>
 

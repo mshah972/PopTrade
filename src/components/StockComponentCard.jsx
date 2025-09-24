@@ -8,8 +8,8 @@ export default function StockComponentCard() {
                 {/* Stock Information Section */}
                 <div className="flex flex-row w-full justify-between items-center space-x-3">
                     <div className={"flex flex-row items-center space-x-3 text-nowrap w-1/2"}>
-                        <div className="bg-accent-primary rounded-full p-1 shadow-md shadow-neutral-400/30 inset-shadow-sm inset-shadow-white/20">
-                            <img src="https://raw.githubusercontent.com/mshah972/PopTrade/63b44d73be90d6a43008c1617a16ca0c7cbe9dc8/src/assets/Dollar%20Minimalistic.svg" alt="Dollar Icon" className="w-6"/>
+                        <div className="bg-accent-primary rounded-full p-2 shadow-md shadow-neutral-400/30 inset-shadow-sm inset-shadow-white/20">
+                            <img src="https://raw.githubusercontent.com/mshah972/PopTrade/63b44d73be90d6a43008c1617a16ca0c7cbe9dc8/src/assets/chart.svg" alt="Dollar Icon" className="w-4"/>
                         </div>
                         <h3 className="font-normal text-lg lg:text-lg text-shadow-md text-shadow-gray-400/30">S&P 500 Index</h3>
                     </div>

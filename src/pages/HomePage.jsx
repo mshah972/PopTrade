@@ -1,5 +1,7 @@
 import TotalBalanceCard from "../components/TotalBalanceCard.jsx";
 import StockComponentCard from "../components/StockComponentCard.jsx";
+import CryptoComponentCard from "../components/CryptoComponentCard.jsx";
+import StocksListComponent from "../components/StocksListComponent.jsx";
 
 export default function HomePage() {
     return (
@@ -17,12 +19,12 @@ export default function HomePage() {
 
               {/* BTC CARD */}
               <div className={"col-span-6 lg:col-span-3"}>
-                  <TotalBalanceCard/>
+                  <CryptoComponentCard/>
               </div>
 
               {/* FAVORITE STOCKS CARD */}
               <div className={"col-span-6 lg:col-span-3"}>
-                  <TotalBalanceCard/>
+                  <StocksListComponent/>
               </div>
 
               {/* PROFIT TRACKER CARD */}

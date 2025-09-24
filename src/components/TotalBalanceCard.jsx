@@ -4,7 +4,7 @@ export default function TotalBalanceCard() {
     return (
         <>
             <section aria-label="Total Balance Card"
-                     className="backdrop-blur-[5px] ring-2 ring-gray-300/40 shadow-xl shadow-gray-300/30 inset-shadow-sm inset-shadow-white p-6 rounded-4xl w-full flex flex-col">
+                     className="backdrop-blur-[5px] ring-2 ring-gray-300/40 shadow-md shadow-gray-400/20 inset-shadow-sm inset-shadow-white p-6 rounded-4xl w-full flex flex-col">
                 {/* Total Balance Section */}
                 <div className="flex flex-row w-full justify-start items-center space-x-3">
                     <div className="bg-accent-primary rounded-full p-1 shadow-md shadow-neutral-400/30 inset-shadow-sm inset-shadow-white/20">
@@ -41,11 +41,11 @@ export default function TotalBalanceCard() {
                     <div class="flex flex-row justify-between items-center">
                         <div class="flex space-x-2 items-center">
                             <div class="w-4 h-4 bg-accent-market rounded shadow-lg shadow-market/50 inset-shadow-sm inset-shadow-white/30"></div>
-                            <p class="text-sm font-light text-shadow-md text-shadow-gray-400/20">Stock Market</p>
+                            <p class="text-sm font-light text-shadow-sm text-shadow-neutral-300/30 text-neutral-700">Stock Market</p>
                         </div>
                         {/* Stocks Profit Ratio */}
                         <div class="backdrop-blur-sm ring-1 ring-gray-300/40 p-1 rounded-md shadow-lg shadow-gray-300/30 inset-shadow-sm inset-shadow-white">
-                            <p class="text-xs font-light text-shadow-md text-shadow-gray-400/20">32.5%</p>
+                            <p class="text-xs font-light text-shadow-sm text-shadow-neutral-300/30 text-neutral-700">32.5%</p>
                         </div>
                     </div>
 
@@ -53,11 +53,11 @@ export default function TotalBalanceCard() {
                     <div class="flex flex-row justify-between items-center">
                         <div class="flex space-x-2 items-center">
                             <div class="w-4 h-4 bg-accent-crypto rounded shadow-lg shadow-crypto/50 inset-shadow-sm inset-shadow-white/30"></div>
-                            <p class="text-sm font-light text-shadow-md text-shadow-gray-400/20">Crypto</p>
+                            <p class="text-sm font-light text-shadow-sm text-shadow-neutral-300/30 text-neutral-700">Crypto</p>
                         </div>
                         {/* Crypto Profit Ratio */}
                         <div class="backdrop-blur-sm ring-1 ring-gray-300/40 p-1 rounded-md shadow-lg shadow-gray-300/30 inset-shadow-sm inset-shadow-white">
-                            <p class="text-xs font-light text-shadow-md text-shadow-gray-400/20">32.5%</p>
+                            <p class="text-xs font-light text-shadow-sm text-shadow-neutral-300/30 text-neutral-700">32.5%</p>
                         </div>
                     </div>
 
@@ -65,11 +65,11 @@ export default function TotalBalanceCard() {
                     <div class="flex flex-row justify-between items-center">
                         <div class="flex space-x-2 items-center">
                             <div class="w-4 h-4 bg-accent-cash rounded shadow-lg shadow-cash/50 inset-shadow-sm inset-shadow-white/30"></div>
-                            <p class="text-sm font-light text-shadow-md text-shadow-gray-400/20">Cash</p>
+                            <p class="text-sm font-light text-shadow-sm text-shadow-neutral-300/30 text-neutral-700">Cash</p>
                         </div>
                         {/* Crypto Profit Ratio */}
                         <div class="backdrop-blur-sm ring-1 ring-gray-300/40 p-1 rounded-md shadow-lg shadow-gray-300/30 inset-shadow-sm inset-shadow-white">
-                            <p class="text-xs font-light text-shadow-md text-shadow-gray-400/20">32.5%</p>
+                            <p class="text-xs font-light text-shadow-sm text-shadow-neutral-300/30 text-neutral-700">32.5%</p>
                         </div>
                     </div>
                 </div>

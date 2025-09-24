@@ -26,12 +26,10 @@ export default function StocksListComponent() {
                             <p className={"text-[10px] font-light text-shadow-sm text-shadow-neutral-300/30 text-neutral-600"}>Apple</p>
                         </div>
 
-                        {/* Border */}
-                        <div className={"border-t border-neutral-200 w-full"}></div>
-
                         {/* Value */}
-                        <div className={"bg-accent-green backdrop-blur-sm flex flex-row text-center inset-shadow-sm inset-shadow-white/20 rounded-xl ml-2"}>
-                            <p className={"text-[10px] lg:text-xs font-normal px-4 py-2 text-white"}>$254.15</p>
+                        <div className={"flex flex-col text-end rounded-xl ml-4 space-y-1"}>
+                            <p className={"text-[10px] lg:text-sm font-medium text-shadow-sm text-shadow-neutral-300/30 text-neutral-800"}>$254.15</p>
+                            <p className={"text-[10px] lg:text-xs font-light text-shadow-sm text-shadow-neutral-300/30 text-neutral-600"}>$1.99 (0.00%)</p>
                         </div>
                     </div>
 
@@ -42,12 +40,10 @@ export default function StocksListComponent() {
                             <p className={"text-[10px] font-light text-shadow-sm text-shadow-neutral-300/30 text-neutral-600"}>Tesla</p>
                         </div>
 
-                        {/* Border */}
-                        <div className={"border-t border-neutral-200 w-full"}></div>
-
                         {/* Value */}
-                        <div className={"bg-accent-red backdrop-blur-sm flex flex-row text-center inset-shadow-sm inset-shadow-white/20 rounded-xl ml-2"}>
-                            <p className={"text-[10px] lg:text-xs font-normal px-4 py-2 text-white"}>$422.80</p>
+                        <div className={"flex flex-col text-end rounded-xl ml-4 space-y-1"}>
+                            <p className={"text-[10px] lg:text-sm font-medium text-shadow-sm text-shadow-neutral-300/30 text-neutral-800"}>$254.15</p>
+                            <p className={"text-[10px] lg:text-xs font-light text-shadow-sm text-shadow-neutral-300/30 text-neutral-600"}>$1.99 (0.00%)</p>
                         </div>
                     </div>
 
@@ -58,12 +54,10 @@ export default function StocksListComponent() {
                             <p className={"text-[10px] font-light text-shadow-sm text-shadow-neutral-300/30 text-neutral-600"}>Palantir Technologies</p>
                         </div>
 
-                        {/* Border */}
-                        <div className={"border-t border-neutral-200 w-full"}></div>
-
                         {/* Value */}
-                        <div className={"bg-accent-green backdrop-blur-sm flex flex-row text-center inset-shadow-sm inset-shadow-white/20 rounded-xl ml-2"}>
-                            <p className={"text-[10px] lg:text-xs font-normal px-4 py-2 text-white"}>$181.45</p>
+                        <div className={"flex flex-col text-end rounded-xl ml-4 space-y-1"}>
+                            <p className={"text-[10px] lg:text-sm font-medium text-shadow-sm text-shadow-neutral-300/30 text-neutral-800"}>$254.15</p>
+                            <p className={"text-[10px] lg:text-xs font-light text-shadow-sm text-shadow-neutral-300/30 text-neutral-600"}>$1.99 (0.00%)</p>
                         </div>
                     </div>
 
@@ -74,12 +68,10 @@ export default function StocksListComponent() {
                             <p className={"text-[10px] font-light text-shadow-sm text-shadow-neutral-300/30 text-neutral-600"}>Netflix</p>
                         </div>
 
-                        {/* Border */}
-                        <div className={"border-t border-neutral-200 w-full"}></div>
-
                         {/* Value */}
-                        <div className={"bg-accent-red backdrop-blur-sm flex flex-row text-center inset-shadow-sm inset-shadow-white/20 rounded-xl ml-2"}>
-                            <p className={"text-[10px] lg:text-xs font-normal px-4 py-2 text-white"}>$1,220.50</p>
+                        <div className={"flex flex-col text-end rounded-xl ml-4 space-y-1"}>
+                            <p className={"text-[10px] lg:text-sm font-medium text-shadow-sm text-shadow-neutral-300/30 text-neutral-800"}>$254.15</p>
+                            <p className={"text-[10px] lg:text-xs font-light text-shadow-sm text-shadow-neutral-300/30 text-neutral-600"}>$1.99 (0.00%)</p>
                         </div>
                     </div>
                 </div>

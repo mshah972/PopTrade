@@ -13,10 +13,10 @@ export default function NavBar() {
     return (
         <>
             <nav aria-label="Nav Bar"
-                 className="flex items-center justify-between m-4 p-4 backdrop-blur-[6px] ring-1 ring-gray-200 rounded-full shadow-lg shadow-primary inset-shadow-sm inset-shadow-neutral-300/20">
+                 className="flex items-center justify-between m-4 p-4 backdrop-blur-[6px] ring-1 ring-gray-200 rounded-full shadow-lg shadow-neutral-200/30 inset-shadow-sm inset-shadow-white">
                 <div>
                     <div
-                        className="bg-accent-primary p-3.5 lg:p-4 rounded-full backdrop-blur-2xl cursor-pointer shadow-lg shadow-accent-primary text-sm lg:text-md hover:bg-primary transition duration-500 group border border-transparent hover:border-gray-300">
+                        className="bg-accent-primary p-3.5 lg:p-4 rounded-full backdrop-blur-2xl cursor-pointer shadow-lg shadow-accent-primary/50 text-sm lg:text-md hover:bg-primary transition duration-500 group ring-1 ring-transparent hover:ring-gray-300/30 inset-shadow-sm inset-shadow-white/30 hover:inset-shadow-neutral-500/20">
                         {/*!-- default logo --*/}
                         <img
                             src="https://raw.githubusercontent.com/mshah972/PopTrade/cff17285d648cadcf93db08ed0a53d8efbffa60b/src/assets/Logo.svg"
@@ -30,10 +30,10 @@ export default function NavBar() {
                 </div>
                 <div>
                     <div
-                        className="backdrop-blur-[5px] shadow-xl shadow-gray-300/20 inset-shadow-sm inset-shadow-neutral-400/10 ring-2 ring-gray-300/40 px-8 py-4 rounded-full flex max-w-7xl justify-center space-x-20 hidden lg:flex md:flex ml-12 mr-12">
+                        className="backdrop-blur-[5px] shadow-xl shadow-gray-300/20 inset-shadow-sm inset-shadow-white ring-2 ring-gray-200/40 px-8 py-4 rounded-full flex max-w-7xl justify-center space-x-20 hidden lg:flex md:flex md:ml-4 md:mr-4">
                         {navigation.map((item) => (
                             <a key={item.name} href={item.href}>
-                                <h3 className="text-sm lg:text-md text-gray-600 font-normal hover:text-accent-primary hover:scale-105 cursor-pointer transition duration-200 text-shadow-lg text-shadow-gray-300/25">{item.name}</h3>
+                                <h3 className="lg:text-[14px] text-[10px] text-neutral-600 font-normal hover:text-accent-primary hover:scale-105 cursor-pointer transition duration-200 text-shadow-md text-shadow-gray-300/50">{item.name}</h3>
                             </a>
                         ))}
                     </div>
@@ -41,19 +41,19 @@ export default function NavBar() {
                 <div>
                     <div className="flex space-x-2">
                         <button
-                            className="backdrop-blur-[5px] ring-2 ring-gray-300/40 rounded-full p-3.5 lg:p-4 cursor-pointer shadow-lg shadow-gray-300/40 inset-shadow-sm inset-shadow-neutral-400/10 hover:shadow-xl hover:scale-105 transition duration-500">
+                            className="backdrop-blur-[5px] ring-2 ring-gray-300/40 rounded-full p-3.5 lg:p-4 cursor-pointer shadow-lg shadow-gray-300/40 inset-shadow-sm inset-shadow-white hover:shadow-xl hover:scale-105 transition duration-500">
                             <img
                                 src="https://raw.githubusercontent.com/mshah972/PopTrade/9a2c703f52c226d858edde17ef53569103005a25/src/assets/search-normal.svg"
                                 alt="Search Button" className="w-4 h-4 lg:w-5 lg:h-5"/>
                         </button>
                         <button
-                            className="backdrop-blur-[5px] ring-2 ring-gray-300/40 rounded-full p-3.5 lg:p-4 cursor-pointer shadow-lg shadow-gray-300/40 inset-shadow-sm inset-shadow-neutral-400/10 hover:shadow-xl hover:scale-105 transition duration-500">
+                            className="backdrop-blur-[5px] ring-2 ring-gray-300/40 rounded-full p-3.5 lg:p-4 cursor-pointer shadow-lg shadow-gray-300/40 inset-shadow-sm inset-shadow-white hover:shadow-xl hover:scale-105 transition duration-500">
                             <img
                                 src="https://raw.githubusercontent.com/mshah972/PopTrade/9a2c703f52c226d858edde17ef53569103005a25/src/assets/notification-bing.svg"
                                 alt="Search Button" className="w-4 h-4 lg:w-5 lg:h-5"/>
                         </button>
                         <button onClick={() => setMobileMenuOpen((v) => !v)}
-                                className="flex lg:hidden md:hidden backdrop-blur-[5px] ring-2 ring-gray-300/40 rounded-full p-3.5 lg:p-4 cursor-pointer shadow-lg shadow-gray-300/40 inset-shadow-sm inset-shadow-neutral-400/10 hover:shadow-xl hover:scale-105 transition duration-500">
+                                className="flex lg:hidden md:hidden backdrop-blur-[5px] ring-2 ring-gray-300/40 rounded-full p-3.5 lg:p-4 cursor-pointer shadow-lg shadow-gray-300/40 inset-shadow-sm inset-shadow-white hover:shadow-xl hover:scale-105 transition duration-500">
                             <img
                                 src="https://raw.githubusercontent.com/mshah972/PopTrade/9a2c703f52c226d858edde17ef53569103005a25/src/assets/Hamburger%20Menu.svg"
                                 alt="Search Button" className="w-4 h-4 lg:w-5 lg:h-5"/>

@@ -28,8 +28,8 @@ export default function StocksListComponent() {
 
                         {/* Value */}
                         <div className={"flex flex-col text-end rounded-xl ml-4 space-y-1"}>
-                            <p className={"text-[10px] lg:text-sm font-medium text-shadow-sm text-shadow-neutral-300/30 text-neutral-800"}>$254.15</p>
-                            <p className={"text-[10px] lg:text-xs font-light text-shadow-sm text-shadow-neutral-300/30 text-neutral-600"}>$1.99 (0.00%)</p>
+                            <p className={"text-sm font-medium text-shadow-sm text-shadow-neutral-300/30 text-neutral-800"}>$254.15</p>
+                            <p className={"text-xs font-light text-shadow-sm text-shadow-neutral-300/30 text-neutral-600"}>$1.99 (0.00%)</p>
                         </div>
                     </div>
 
@@ -42,8 +42,8 @@ export default function StocksListComponent() {
 
                         {/* Value */}
                         <div className={"flex flex-col text-end rounded-xl ml-4 space-y-1"}>
-                            <p className={"text-[10px] lg:text-sm font-medium text-shadow-sm text-shadow-neutral-300/30 text-neutral-800"}>$254.15</p>
-                            <p className={"text-[10px] lg:text-xs font-light text-shadow-sm text-shadow-neutral-300/30 text-neutral-600"}>$1.99 (0.00%)</p>
+                            <p className={"text-sm font-medium text-shadow-sm text-shadow-neutral-300/30 text-neutral-800"}>$254.15</p>
+                            <p className={"text-xs font-light text-shadow-sm text-shadow-neutral-300/30 text-neutral-600"}>$1.99 (0.00%)</p>
                         </div>
                     </div>
 
@@ -56,8 +56,8 @@ export default function StocksListComponent() {
 
                         {/* Value */}
                         <div className={"flex flex-col text-end rounded-xl ml-4 space-y-1"}>
-                            <p className={"text-[10px] lg:text-sm font-medium text-shadow-sm text-shadow-neutral-300/30 text-neutral-800"}>$254.15</p>
-                            <p className={"text-[10px] lg:text-xs font-light text-shadow-sm text-shadow-neutral-300/30 text-neutral-600"}>$1.99 (0.00%)</p>
+                            <p className={"text-sm font-medium text-shadow-sm text-shadow-neutral-300/30 text-neutral-800"}>$254.15</p>
+                            <p className={"text-xs font-light text-shadow-sm text-shadow-neutral-300/30 text-neutral-600"}>$1.99 (0.00%)</p>
                         </div>
                     </div>
 
@@ -70,8 +70,8 @@ export default function StocksListComponent() {
 
                         {/* Value */}
                         <div className={"flex flex-col text-end rounded-xl ml-4 space-y-1"}>
-                            <p className={"text-[10px] lg:text-sm font-medium text-shadow-sm text-shadow-neutral-300/30 text-neutral-800"}>$254.15</p>
-                            <p className={"text-[10px] lg:text-xs font-light text-shadow-sm text-shadow-neutral-300/30 text-neutral-600"}>$1.99 (0.00%)</p>
+                            <p className={"text-sm font-medium text-shadow-sm text-shadow-neutral-300/30 text-neutral-800"}>$254.15</p>
+                            <p className={"text-xs font-light text-shadow-sm text-shadow-neutral-300/30 text-neutral-600"}>$1.99 (0.00%)</p>
                         </div>
                     </div>
                 </div>

@@ -27,27 +27,69 @@ export default function TrendingStocksComponent() {
                     </div>
 
                     <div className={"flex flex-row justify-between px-4 py-2 border border-neutral-200 inset-shadow-sm inset-shadow-accent-primary/10 backdrop-blur-sm rounded-full shadow-md shadow-neutral-200/20"}>
-                        <p className={"text-[14px] font-medium text-shadow-sm text-shadow-neutral-300/40 text-neutral-700"}>APPL</p>
-                        <p className={"text-[14px] font-medium text-shadow-sm text-shadow-neutral-300/40 text-neutral-700"}>$241.56</p>
-                        <p className={"text-[14px] font-medium text-shadow-sm text-shadow-neutral-300/40 text-neutral-700"}>42.30M</p>
+                        <p className={"text-[14px] font-medium text-shadow-sm text-shadow-neutral-400/20 text-neutral-700"}>APPL</p>
+                        <p className={"text-[14px] font-medium text-shadow-sm text-shadow-neutral-400/20 text-neutral-700"}>$241.56</p>
+                        <p className={"text-[14px] font-medium text-shadow-sm text-shadow-neutral-400/20 text-neutral-700"}>42.30M</p>
                     </div>
 
                     <div className={"flex flex-row justify-between px-4 py-2 border border-neutral-200 inset-shadow-sm inset-shadow-accent-primary/10 backdrop-blur-sm rounded-full shadow-md shadow-neutral-200/20"}>
-                        <p className={"text-[14px] font-medium text-shadow-sm text-shadow-neutral-300/40 text-neutral-700"}>TSLA</p>
-                        <p className={"text-[14px] font-medium text-shadow-sm text-shadow-neutral-300/40 text-neutral-700"}>$445.84</p>
-                        <p className={"text-[14px] font-medium text-shadow-sm text-shadow-neutral-300/40 text-neutral-700"}>93.13M</p>
+                        <p className={"text-[14px] font-medium text-shadow-sm text-shadow-neutral-400/20 text-neutral-700"}>TSLA</p>
+                        <p className={"text-[14px] font-medium text-shadow-sm text-shadow-neutral-400/20 text-neutral-700"}>$445.84</p>
+                        <p className={"text-[14px] font-medium text-shadow-sm text-shadow-neutral-400/20 text-neutral-700"}>93.13M</p>
                     </div>
 
                     <div className={"flex flex-row justify-between px-4 py-2 border border-neutral-200 inset-shadow-sm inset-shadow-accent-primary/10 backdrop-blur-sm rounded-full shadow-md shadow-neutral-200/20"}>
-                        <p className={"text-[14px] font-medium text-shadow-sm text-shadow-neutral-300/40 text-neutral-700"}>NVDA</p>
-                        <p className={"text-[14px] font-medium text-shadow-sm text-shadow-neutral-300/40 text-neutral-700"}>$176.74</p>
-                        <p className={"text-[14px] font-medium text-shadow-sm text-shadow-neutral-300/40 text-neutral-700"}>143.56M</p>
+                        <p className={"text-[14px] font-medium text-shadow-sm text-shadow-neutral-400/20 text-neutral-700"}>NVDA</p>
+                        <p className={"text-[14px] font-medium text-shadow-sm text-shadow-neutral-400/20 text-neutral-700"}>$176.74</p>
+                        <p className={"text-[14px] font-medium text-shadow-sm text-shadow-neutral-400/20 text-neutral-700"}>143.56M</p>
                     </div>
 
                     <div className={"flex flex-row justify-between px-4 py-2 border border-neutral-200 inset-shadow-sm inset-shadow-accent-primary/10 backdrop-blur-sm rounded-full shadow-md shadow-neutral-200/20"}>
-                        <p className={"text-[14px] font-medium text-shadow-sm text-shadow-neutral-300/40 text-neutral-700"}>PLTR</p>
-                        <p className={"text-[14px] font-medium text-shadow-sm text-shadow-neutral-300/40 text-neutral-700"}>$179.35</p>
-                        <p className={"text-[14px] font-medium text-shadow-sm text-shadow-neutral-300/40 text-neutral-700"}>45.38M</p>
+                        <p className={"text-[14px] font-medium text-shadow-sm text-shadow-neutral-400/20 text-neutral-700"}>PLTR</p>
+                        <p className={"text-[14px] font-medium text-shadow-sm text-shadow-neutral-400/20 text-neutral-700"}>$179.35</p>
+                        <p className={"text-[14px] font-medium text-shadow-sm text-shadow-neutral-400/20 text-neutral-700"}>45.38M</p>
+                    </div>
+
+                    <div className={"flex flex-row justify-between px-4 py-2 border border-neutral-200 inset-shadow-sm inset-shadow-accent-primary/10 backdrop-blur-sm rounded-full shadow-md shadow-neutral-200/20"}>
+                        <p className={"text-[14px] font-medium text-shadow-sm text-shadow-neutral-400/20 text-neutral-700"}>PLTR</p>
+                        <p className={"text-[14px] font-medium text-shadow-sm text-shadow-neutral-400/20 text-neutral-700"}>$179.35</p>
+                        <p className={"text-[14px] font-medium text-shadow-sm text-shadow-neutral-400/20 text-neutral-700"}>45.38M</p>
+                    </div>
+
+                    <div className={"flex flex-row justify-between px-4 py-2 border border-neutral-200 inset-shadow-sm inset-shadow-accent-primary/10 backdrop-blur-sm rounded-full shadow-md shadow-neutral-200/20"}>
+                        <p className={"text-[14px] font-medium text-shadow-sm text-shadow-neutral-400/20 text-neutral-700"}>PLTR</p>
+                        <p className={"text-[14px] font-medium text-shadow-sm text-shadow-neutral-400/20 text-neutral-700"}>$179.35</p>
+                        <p className={"text-[14px] font-medium text-shadow-sm text-shadow-neutral-400/20 text-neutral-700"}>45.38M</p>
+                    </div>
+
+                    <div className={"flex flex-row justify-between px-4 py-2 border border-neutral-200 inset-shadow-sm inset-shadow-accent-primary/10 backdrop-blur-sm rounded-full shadow-md shadow-neutral-200/20"}>
+                        <p className={"text-[14px] font-medium text-shadow-sm text-shadow-neutral-400/20 text-neutral-700"}>PLTR</p>
+                        <p className={"text-[14px] font-medium text-shadow-sm text-shadow-neutral-400/20 text-neutral-700"}>$179.35</p>
+                        <p className={"text-[14px] font-medium text-shadow-sm text-shadow-neutral-400/20 text-neutral-700"}>45.38M</p>
+                    </div>
+
+                    <div className={"flex flex-row justify-between px-4 py-2 border border-neutral-200 inset-shadow-sm inset-shadow-accent-primary/10 backdrop-blur-sm rounded-full shadow-md shadow-neutral-200/20"}>
+                        <p className={"text-[14px] font-medium text-shadow-sm text-shadow-neutral-400/20 text-neutral-700"}>PLTR</p>
+                        <p className={"text-[14px] font-medium text-shadow-sm text-shadow-neutral-400/20 text-neutral-700"}>$179.35</p>
+                        <p className={"text-[14px] font-medium text-shadow-sm text-shadow-neutral-400/20 text-neutral-700"}>45.38M</p>
+                    </div>
+
+                    <div className={"flex flex-row justify-between px-4 py-2 border border-neutral-200 inset-shadow-sm inset-shadow-accent-primary/10 backdrop-blur-sm rounded-full shadow-md shadow-neutral-200/20"}>
+                        <p className={"text-[14px] font-medium text-shadow-sm text-shadow-neutral-400/20 text-neutral-700"}>PLTR</p>
+                        <p className={"text-[14px] font-medium text-shadow-sm text-shadow-neutral-400/20 text-neutral-700"}>$179.35</p>
+                        <p className={"text-[14px] font-medium text-shadow-sm text-shadow-neutral-400/20 text-neutral-700"}>45.38M</p>
+                    </div>
+
+                    <div className={"flex flex-row justify-between px-4 py-2 border border-neutral-200 inset-shadow-sm inset-shadow-accent-primary/10 backdrop-blur-sm rounded-full shadow-md shadow-neutral-200/20"}>
+                        <p className={"text-[14px] font-medium text-shadow-sm text-shadow-neutral-400/20 text-neutral-700"}>PLTR</p>
+                        <p className={"text-[14px] font-medium text-shadow-sm text-shadow-neutral-400/20 text-neutral-700"}>$179.35</p>
+                        <p className={"text-[14px] font-medium text-shadow-sm text-shadow-neutral-400/20 text-neutral-700"}>45.38M</p>
+                    </div>
+
+                    <div className={"flex flex-row justify-between px-4 py-2 border border-neutral-200 inset-shadow-sm inset-shadow-accent-primary/10 backdrop-blur-sm rounded-full shadow-md shadow-neutral-200/20"}>
+                        <p className={"text-[14px] font-medium text-shadow-sm text-shadow-neutral-400/20 text-neutral-700"}>PLTR</p>
+                        <p className={"text-[14px] font-medium text-shadow-sm text-shadow-neutral-400/20 text-neutral-700"}>$179.35</p>
+                        <p className={"text-[14px] font-medium text-shadow-sm text-shadow-neutral-400/20 text-neutral-700"}>45.38M</p>
                     </div>
                 </div>
             </section>

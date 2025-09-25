@@ -31,16 +31,16 @@ export default function CryptoComponentCard() {
                 </div>
 
                 {/* Crypto Details */}
-                <div class="flex flex-row w-full space-x-2 mt-10 overflow-clip">
-                    <div class="flex flex-row justify-start items-center space-x-2">
-                        <div class="text-accent-primary -mt-6">
-                            <h3 class="font-medium text-xl text-shadow-md text-shadow-gray-400/20">$</h3>
+                <div className="flex flex-row w-full space-x-2 mt-10 overflow-clip">
+                    <div className="flex flex-row justify-start items-center space-x-2">
+                        <div className="text-accent-primary -mt-6">
+                            <h3 className="font-medium text-xl text-shadow-md text-shadow-gray-400/20">$</h3>
                         </div>
-                        <h2 class="font-semibold text-4xl text-shadow-md text-shadow-gray-400/40">112,285.54</h2>
+                        <h2 className="font-semibold text-4xl text-shadow-md text-shadow-gray-400/40">112,285.54</h2>
                     </div>
-                    <div class="flex flex-row items-end space-x-1">
-                        <p class="text-accent-red text-sm text-shadow-md text-shadow-gray-300/20">$265.55</p>
-                        <p class="text-accent-red text-sm text-shadow-md text-shadow-gray-300/20">(0.24%)</p>
+                    <div className="flex flex-row items-end space-x-1">
+                        <p className="text-accent-red text-sm text-shadow-md text-shadow-gray-300/20">$265.55</p>
+                        <p className="text-accent-red text-sm text-shadow-md text-shadow-gray-300/20">(0.24%)</p>
                     </div>
                 </div>
 
@@ -48,7 +48,7 @@ export default function CryptoComponentCard() {
                 <div className={"border-b border-gray-200/70 mt-4"}></div>
 
                 {/* Stock's Market Details */}
-                <div class="flex flex-col w-full space-y-4 mt-4">
+                <div className="flex flex-col w-full space-y-4 mt-4">
                     {/* Open Price */}
                     <div className={"backdrop-blur-sm shadow-md shadow-gray-300/20 flex flex-row justify-between items-center ring-1 ring-neutral-200/50 rounded-full p-2 inset-shadow-sm inset-shadow-white space-x-4"}>
                         {/* Label */}

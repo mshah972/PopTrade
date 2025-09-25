@@ -2,6 +2,7 @@ import TotalBalanceCard from "../components/TotalBalanceCard.jsx";
 import StockComponentCard from "../components/StockComponentCard.jsx";
 import CryptoComponentCard from "../components/CryptoComponentCard.jsx";
 import StocksListComponent from "../components/StocksListComponent.jsx";
+import TrendingStocksComponent from "../components/TrendingStocksComponent.jsx";
 
 export default function HomePage() {
     return (
@@ -27,9 +28,9 @@ export default function HomePage() {
                   <StocksListComponent/>
               </div>
 
-              {/* PROFIT TRACKER CARD */}
-              <div className={"col-span-6 lg:col-span-3"}>
-                  <TotalBalanceCard/>
+              {/* TRENDING STOCKS CARD */}
+              <div className={"col-span-6 lg:col-span-3 lg:row-span-2"}>
+                  <TrendingStocksComponent/>
               </div>
 
               {/* PORTFOLIO OVERVIEW CARD */}
@@ -37,13 +38,8 @@ export default function HomePage() {
                   <TotalBalanceCard/>
               </div>
 
-              {/* TRENDING STOCKS CARD */}
-              <div className={"col-span-6 lg:col-span-4"}>
-                  <TotalBalanceCard/>
-              </div>
-
               {/* RECENT TRANSACTIONS CARD */}
-              <div className={"col-span-6 lg:col-span-8"}>
+              <div className={"col-span-6 lg:col-span-9"}>
                   <TotalBalanceCard/>
               </div>
           </div>

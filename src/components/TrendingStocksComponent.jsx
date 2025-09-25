@@ -20,7 +20,7 @@ export default function TrendingStocksComponent() {
                 </div>
 
                 <div className={"flex flex-col w-full h-full px-1 py-2 gap-3"}>
-                    <div className={"flex flex-row justify-between px-4 py-2 mb-2 border-b border-neutral-200"}>
+                    <div className={"flex flex-row justify-between px-4 py-2 mb-1 border-b border-neutral-200"}>
                         <p className={"text-xs font-light text-shadow-sm text-shadow-neutral-300/30 text-neutral-700"}>Name</p>
                         <p className={"text-xs font-light text-shadow-sm text-shadow-neutral-300/30 text-neutral-700"}>Price</p>
                         <p className={"text-xs font-light text-shadow-sm text-shadow-neutral-300/30 text-neutral-700"}>Volume</p>

@@ -1,33 +1,20 @@
 import React from "react";
+import ComponentHeader from "../utils/ComponentHeader.jsx";
+import MarketStatusComponent from "../utils/MarketStatusComponent.jsx";
 
 export default function CryptoComponentCard() {
     return (
         <>
-            <section aria-label={"Crypto-Component-Card"} className={"backdrop-blur-[5px] ring-2 ring-gray-300/40 shadow-md shadow-gray-400/20 inset-shadow-sm inset-shadow-white p-6 rounded-4xl w-full flex flex-col h-full"}>
+            <section aria-label={"Crypto-Component-Card"}
+                     className={"backdrop-blur-[5px] ring-2 ring-gray-300/40 shadow-md shadow-gray-400/20 inset-shadow-sm inset-shadow-white p-6 rounded-4xl w-full flex flex-col h-full"}>
                 {/* Crypto Information Section */}
                 <div className="flex flex-row w-full justify-between items-center space-x-3">
-                    <div className={"flex flex-row items-center space-x-3 text-nowrap w-1/2"}>
-                        <div
-                            className="bg-accent-primary rounded-full p-1.5 shadow-md shadow-neutral-400/30 inset-shadow-sm inset-shadow-white/20">
-                            <img
-                                src="https://raw.githubusercontent.com/mshah972/PopTrade/63b44d73be90d6a43008c1617a16ca0c7cbe9dc8/src/assets/BitcoinBadge.svg"
-                                alt="Crypto Icon" className="w-5"/>
-                        </div>
-                        <h3 className="font-normal text-lg lg:text-lg text-shadow-md text-shadow-gray-400/30">Bitcoin - USD</h3>
+                    {/* Crypto Header */}
+                    <div className={"flex flex-row items-center space-x-3 w-1/2"}>
+                        <ComponentHeader imageUrl={"https://raw.githubusercontent.com/mshah972/PopTrade/63b44d73be90d6a43008c1617a16ca0c7cbe9dc8/src/assets/BitcoinBadge.svg"} title={"Bitcoin - USD"} />
                     </div>
-                    <div>
-                        <div
-                            className={"flex flex-row items-center space-x-2 rounded-full ring-1 ring-neutral-200/60 inset-shadow-sm inset-shadow-white shadow-md shadow-gray-400/10 backdrop-blur-sm px-3 py-2"}>
-                            <p className={"text-[10px] text-shadow-sm text-shadow-neutral-300/30 text-neutral-600 font-normal"}>Market
-                                Status</p>
-                            <span className="relative flex size-2">
-                              <span
-                                  className="absolute inline-flex h-full w-full animate-ping rounded-full bg-accent-red opacity-75"></span>
-                              <span id="market-status"
-                                    className="relative inline-flex size-2 rounded-full bg-accent-red"></span>
-                            </span>
-                        </div>
-                    </div>
+
+                    <MarketStatusComponent marketStatus={false} />
                 </div>
 
                 {/* Crypto Details */}

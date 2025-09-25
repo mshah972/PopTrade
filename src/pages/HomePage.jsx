@@ -44,6 +44,10 @@ export default function HomePage() {
               <div className={"col-span-6 lg:col-span-9"}>
                   <RecentTranscationsComponent/>
               </div>
+
+              <div className={"col-span-6 lg:col-span-12"}>
+                  <TotalBalanceCard/>
+              </div>
           </div>
       </>
     );

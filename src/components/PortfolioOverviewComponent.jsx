@@ -8,7 +8,7 @@ export default function PortfolioOverviewComponent() {
                 <div className="flex flex-row w-full justify-between items-center space-x-3 px-4 py-4">
                     <div className={"flex flex-row items-center space-x-3 text-nowrap"}>
                         <div
-                            className="bg-accent-primary rounded-full p-1.5 shadow-md shadow-neutral-400/30 inset-shadow-sm inset-shadow-white/20">
+                            className="bg-accent-primary rounded-full p-2 shadow-md shadow-neutral-400/30 inset-shadow-sm inset-shadow-white/20">
                             <img
                                 src="https://raw.githubusercontent.com/mshah972/PopTrade/45cfeae1841e4a2f2a34b121905f6cca00cfd819/src/assets/portfolio_overview.svg"
                                 alt="Favorite Icon" className="w-5"/>

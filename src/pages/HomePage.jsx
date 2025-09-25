@@ -4,6 +4,7 @@ import CryptoComponentCard from "../components/CryptoComponentCard.jsx";
 import StocksListComponent from "../components/StocksListComponent.jsx";
 import TrendingStocksComponent from "../components/TrendingStocksComponent.jsx";
 import PortfolioOverviewComponent from "../components/PortfolioOverviewComponent.jsx";
+import RecentTranscationsComponent from "../components/RecentTransactionsComponent.jsx";
 
 export default function HomePage() {
     return (
@@ -41,7 +42,7 @@ export default function HomePage() {
 
               {/* RECENT TRANSACTIONS CARD */}
               <div className={"col-span-6 lg:col-span-9"}>
-                  <TotalBalanceCard/>
+                  <RecentTranscationsComponent/>
               </div>
           </div>
       </>

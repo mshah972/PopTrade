@@ -5,6 +5,7 @@ import StocksListComponent from "../components/StocksListComponent.jsx";
 import TrendingStocksComponent from "../components/TrendingStocksComponent.jsx";
 import PortfolioOverviewComponent from "../components/PortfolioOverviewComponent.jsx";
 import RecentTranscationsComponent from "../components/RecentTransactionsComponent.jsx";
+import NewsComponent from "../components/NewsComponent.jsx";
 
 export default function HomePage() {
     return (
@@ -46,7 +47,7 @@ export default function HomePage() {
               </div>
 
               <div className={"col-span-6 lg:col-span-12"}>
-                  <TotalBalanceCard/>
+                  <NewsComponent/>
               </div>
           </div>
       </>
